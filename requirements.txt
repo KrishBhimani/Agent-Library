@@ -34,3 +34,4 @@ crewai
 crewai-tools
 unstructured
 fpdf
+numpy<2

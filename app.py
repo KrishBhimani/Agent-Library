@@ -53,7 +53,7 @@ agent_info = [
     ("Github Readme Automation", "Analyze the repository and create a README file automatically"),
     ("Email Automation", "Analyzes the email body and categorizes it and sends the email from respective team."),
     ("Trip Planner", "Provides complete itenary for your trip"),
-    ("Chatbot", "Conversational AI for customer support."),
+    ("Customer Support Bot", "Conversational AI for customer support on Telegram."),
     ("Sentiment Analyzer", "Determines sentiment in text data."),
     ("Code Reviewer", "Automates code quality checks."),
     ("Fraud Detector", "Identifies suspicious financial transactions."),
