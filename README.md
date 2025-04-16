@@ -1,47 +1,54 @@
-# **Agent Library**
+# **Agent-Library**
+Agent-Library is an innovative repository designed to streamline interactions with AI agents through a simple, Python-based library. This project facilitates easy integration and management of AI functionalities, making it accessible for developers to build sophisticated applications.
 
-A workplace where you can find multiple different agents created using different agentic frameworks. This repository serves as a central hub for various agents built using diverse agentic frameworks, providing a versatile and comprehensive collection for developers and researchers.
+## 🚀 Features
+- **Modular Design**: Easily integrate or remove AI agent functionalities as needed.
+- **Simple API**: Utilize a straightforward Python API to interact with AI agents.
+- **Scalability**: Designed to handle a variety of AI tasks, from simple queries to complex workflows.
 
- ## 🚀 Features
+## 🕠️ Installation
+### 1 Clone the Repository
+```sh
+git clone https://github.com/KrishBhimani/Agent-Library.git
+```
 
-- **Multi-Framework Support**: Agents built using different agentic frameworks for versatility.
-- **AI-Powered Agents**: Leveraging advanced AI models for intelligent automation.
-- **Modular Design**: Easy integration and extension of new agents and frameworks.
+### 2 Create a Virtual Environment
 
- ## 📌 Usage
+#### For Windows:
+```sh
+conda create -p venv python==3.11 -y
+conda activate venv/
+```
 
-1. **Clone the Repository**: 
-   ```bash
-   git clone https://github.com/KrishBhimani/Agent-Library.git
-   ```
-2. **Navigate to the Repository**:
-   ```bash
-   cd Agent-Library
-   ```
-3. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. **Run an Agent**:
-   ```bash
-   python path/to/agent/script.py
-   ```
+#### For macOS/Linux:
+```sh
+python3 -m venv venv
+source venv/bin/activate
+```
 
- ## 🔧 Technologies Used
+### 3 Install Dependencies
+```sh
+pip install -r requirements.txt
+```
 
+### 4 Run the Application
+```sh
+python main.py
+```
+
+## 📌 Usage
+1. **Initialization**: Import the library and initialize the agent.
+2. **Interaction**: Use the agent to perform AI tasks.
+
+## 🔧 Technologies Used
 - **Python**: Primary programming language.
-- **LangChain**: For building and integrating agentic frameworks.
-- **Transformers**: For leveraging AI models.
+- **Conda**: For environment management.
 
- ## 🚀 Challenges & Solutions
+## 🚀 Challenges & Solutions
+- **Challenge**: Ensuring compatibility across different Python versions.
+  - **Solution**: Utilizing Conda for environment management.
 
-- **Challenge**: Integrating diverse agentic frameworks.
-  - **Solution**: Modular design and documentation.
-- **Challenge**: Ensuring compatibility across frameworks.
-  - **Solution**: Comprehensive testing and validation.
-
- ## 🤝 Contributing
-
+## 🤝 Contributing
 Contributions are welcome! Feel free to submit **issues** or **pull requests** to improve this project.
 
 ---
