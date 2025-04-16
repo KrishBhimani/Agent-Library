@@ -1,80 +1,54 @@
 # **Agent-Library**
-
-The Agent-Library repository contains an innovative AI-powered library management system designed to streamline the organization and accessibility of books and resources. This project aims to provide an efficient and user-friendly interface for managing library operations, including cataloging, borrowing, and retrieving information about books.
+The Agent-Library is an innovative project designed to streamline interactions with AI agents, offering a comprehensive framework for developing, integrating, and managing AI-driven applications.
 
 ## 🚀 Features
-
-- **Book Cataloging:** Allows for easy addition and management of book entries with details such as title, author, publication date, and ISBN.
-- **Borrowing System:** Enables users to borrow and return books with automated due dates and reminders.
-- **Search Functionality:** Provides a robust search feature to find books by title, author, or ISBN efficiently.
-- **User Management:** Supports multiple user roles (admin, librarian, borrower) with different permissions for managing library operations.
-- **AI-Powered Recommendations:** Utilizes machine learning algorithms to suggest books based on users' borrowing history and preferences.
-
-## 📬 Contact Me
-
-Feel free to reach out for collaborations, opportunities, or just a tech chat!
-
-- 📧 [Email Id](mailto:erkrishbhimani@gmail.com)  
-- 🔗 [LinkedIn Profile](https://www.linkedin.com/in/krishbhimani/)
+- **Modular Design**: Easily integrate or swap out AI models and tools.
+- **Scalable Architecture**: Built to handle increased loads and complex interactions.
+- **Comprehensive Documentation**: Detailed guides and API references for seamless integration.
 
 ## 🕠️ Installation
-
 ### 1 Clone the Repository
-
 ```sh
 git clone https://github.com/KrishBhimani/Agent-Library.git
 ```
-
 ### 2 Create a Virtual Environment
-
 #### For Windows:
 ```sh
 conda create -p venv python==3.11 -y
 conda activate venv/
 ```
-
 #### For macOS/Linux:
 ```sh
 python3 -m venv venv
 source venv/bin/activate
 ```
-
 ### 3 Install Dependencies
-
 ```sh
 pip install -r requirements.txt
 ```
-
 ### 4 Run the Application
-
 ```sh
-python app.py
+python main.py
 ```
 
 ## 📌 Usage
-
-1. **Initial Setup:** After cloning and installing dependencies, run the application and follow the on-screen instructions to set up the database and create an admin account.
-2. **Adding Books:** Use the admin interface to add books, specifying details like title, author, and ISBN.
-3. **Borrowing Books:** Users can search for books and borrow them. The system automatically tracks borrowing history and due dates.
-4. **Returning Books:** Users can return books, and the system updates the book's status and notifies the user about any fines.
+1. **Initialization**: Start by importing the necessary modules and initializing the agent.
+2. **Interaction**: Use the agent to perform tasks, such as querying or generating content.
+3. **Customization**: Extend the agent's capabilities by adding custom tools or models.
 
 ## 🔧 Technologies Used
-
-- **Backend:** Python 3.11, Flask
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Database:** SQLite
-- **AI/ML:** TensorFlow, Scikit-learn
-- **Development Tools:** Git, VSCode
+- **Python**: Primary programming language.
+- **Conda**: Environment management.
+- **pip**: Dependency management.
+- **Git**: Version control.
 
 ## 🚀 Challenges & Solutions
-
-- **Challenge:** Integrating AI-powered recommendation features without significantly impacting performance.
-  - **Solution:** Implemented asynchronous processing for recommendation algorithms to ensure a seamless user experience.
-- **Challenge:** Ensuring data consistency and integrity across different user interactions.
-  - **Solution:** Utilized transactions in database operations to maintain data integrity.
+- **Challenge**: Ensuring compatibility across different Python versions.
+  - **Solution**: Utilizing Conda for environment management.
+- **Challenge**: Managing complex dependencies.
+  - **Solution**: Implementing a `requirements.txt` file.
 
 ## 🤝 Contributing
-
 Contributions are welcome! Feel free to submit **issues** or **pull requests** to improve this project.
 
 ---
