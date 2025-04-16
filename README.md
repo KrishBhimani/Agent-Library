@@ -1,19 +1,20 @@
-# **Agent Library**
+# **Agent-Library**
 
-The Agent Library is an innovative repository designed to streamline interactions with AI agents, providing a robust framework for developing and integrating intelligent solutions. This project aims to enhance the accessibility and utility of AI technologies, making it easier for developers to create sophisticated agent-based applications.
+The Agent-Library repository contains an innovative AI-powered library management system designed to streamline the organization and accessibility of books and resources. This project aims to provide an efficient and user-friendly interface for managing library operations, including cataloging, borrowing, and retrieving information about books.
 
 ## 🚀 Features
 
-- **Modular Design**: A highly modular architecture allows for easy extension and customization of agent functionalities.
-- **AI Model Integration**: Seamless integration with various AI models for diverse applications, including natural language processing and machine learning.
-- **Automation Capabilities**: Built-in automation features to reduce manual intervention and enhance efficiency.
-- **Scalability**: Designed to scale with your projects, supporting both small-scale and large-scale deployments.
+- **Book Cataloging:** Allows for easy addition and management of book entries with details such as title, author, publication date, and ISBN.
+- **Borrowing System:** Enables users to borrow and return books with automated due dates and reminders.
+- **Search Functionality:** Provides a robust search feature to find books by title, author, or ISBN efficiently.
+- **User Management:** Supports multiple user roles (admin, librarian, borrower) with different permissions for managing library operations.
+- **AI-Powered Recommendations:** Utilizes machine learning algorithms to suggest books based on users' borrowing history and preferences.
 
 ## 📬 Contact Me
 
 Feel free to reach out for collaborations, opportunities, or just a tech chat!
 
-- 📧 [krishbhimani@gmail.com](mailto:erkrishbhimani@gmail.com)  
+- 📧 [Email Id](mailto:erkrishbhimani@gmail.com)  
 - 🔗 [LinkedIn Profile](https://www.linkedin.com/in/krishbhimani/)
 
 ## 🕠️ Installation
@@ -47,27 +48,30 @@ pip install -r requirements.txt
 ### 4 Run the Application
 
 ```sh
-python main.py
+python app.py
 ```
 
 ## 📌 Usage
 
-1. **Initialization**: Start by initializing the agent with the desired configuration.
-2. **Interaction**: Interact with the agent using the provided API endpoints or direct function calls.
-3. **Customization**: Extend or modify agent behaviors through the modular design.
+1. **Initial Setup:** After cloning and installing dependencies, run the application and follow the on-screen instructions to set up the database and create an admin account.
+2. **Adding Books:** Use the admin interface to add books, specifying details like title, author, and ISBN.
+3. **Borrowing Books:** Users can search for books and borrow them. The system automatically tracks borrowing history and due dates.
+4. **Returning Books:** Users can return books, and the system updates the book's status and notifies the user about any fines.
 
 ## 🔧 Technologies Used
 
-- **Python**: Primary programming language for the project.
-- **Conda**: Environment management for Python.
-- **GitHub**: Version control and collaboration platform.
+- **Backend:** Python 3.11, Flask
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Database:** SQLite
+- **AI/ML:** TensorFlow, Scikit-learn
+- **Development Tools:** Git, VSCode
 
 ## 🚀 Challenges & Solutions
 
-- **Challenge**: Ensuring scalability and performance across different AI models.
-  - **Solution**: Implemented a modular design with dynamic loading of models.
-- **Challenge**: Simplifying the integration of various AI technologies.
-  - **Solution**: Developed a unified API for interacting with different models.
+- **Challenge:** Integrating AI-powered recommendation features without significantly impacting performance.
+  - **Solution:** Implemented asynchronous processing for recommendation algorithms to ensure a seamless user experience.
+- **Challenge:** Ensuring data consistency and integrity across different user interactions.
+  - **Solution:** Utilized transactions in database operations to maintain data integrity.
 
 ## 🤝 Contributing
 
