@@ -149,7 +149,7 @@ if st.button("Generate README"):
 
         # Create an agent with the customized instructions
         agent = Agent(
-            model=Groq(id="qwen-2.5-32b"),
+            model=Groq(id="meta-llama/llama-4-scout-17b-16e-instruct"),
             instructions=[instructions],
             tools=[GithubTools()],
             show_tool_calls=True,

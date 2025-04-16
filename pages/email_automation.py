@@ -145,7 +145,7 @@ if st.button("Generate and Send Email"):
         sender_passkey = os.getenv('sender_passkey')
 
         agent = Agent(
-            model=Groq(id="qwen-2.5-32b"),
+            model=Groq(id="meta-llama/llama-4-scout-17b-16e-instruct"),
             instructions=[
                 "You are tasked with crafting and sending a professional email response based on the following:",
                 f"1. The email content received from the sender: {response['input']}",

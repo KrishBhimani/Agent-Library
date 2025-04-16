@@ -33,7 +33,7 @@ knowledge_base = PDFKnowledgeBase(
 
 # Initialize the agent
 agent = Agent(
-    model=Groq(id="qwen-2.5-32b"),
+    model=Groq(id="meta-llama/llama-4-scout-17b-16e-instruct"),
     # reasoning_model=Groq(id="deepseek-r1-distill-llama-70b"),
     knowledge=knowledge_base,
     instructions=["""
