@@ -1,37 +1,35 @@
-agno
-openai
+# Core dependencies
+streamlit
 python-dotenv
-duckduckgo-search
-pypdf
-lancedb 
-tantivy
-streamlit 
-pandas
-yfinance
-openai 
-duckduckgo-search 
-yfinance 
-sqlalchemy 
-fastapi[standard]
-groq
-sentence-transformers
-numpy
-agentql
-ipykernel
-ipywidgets
-httpx
-ollama
-langgraph
-langgraph-cli[inmem]
-pydantic
-langchain_community
-langchain_core
-langchain_groq
-googlesearch-python 
-pycountry
-pygithub
+
+# Agent frameworks
 crewai
 crewai-tools
+agno
+
+# Language models
+openai
+groq
+langchain_core
+langchain_groq
+langchain_community
+
+# Tools and utilities
+requests
+pydantic
 unstructured
 fpdf
+duckduckgo-search
+pygithub
+httpx
+
+# Data processing
+pandas
 numpy<2
+
+# Search tools
+googlesearch-python
+pycountry
+
+# Required for specific agents
+sentence-transformers

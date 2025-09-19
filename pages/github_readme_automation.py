@@ -40,6 +40,7 @@ include_installation = st.radio(
     "Do you want to include the installation guide and technologies in the README?",
     ("Yes", "No")
 )
+# email=st.text_input("Enter your email id")
 
 if st.button("Generate README"):
     if repo_name:
@@ -51,12 +52,20 @@ if st.button("Generate README"):
 
             # [Project Name]<the name should be meaningful and bold and capitalize>
 
-            A brief one-line description of the project.<use llm to add more information as well>
+            A brief description of the project.<use llm to add more information as well>
 
             ## 🚀 Features
 
             - Summarize the key functionalities concisely.
             - Highlight any AI models, automation, or key differentiators.
+
+        in the end add:
+            ## 📬 Contact Me
+
+            Feel free to reach out for collaborations, opportunities, or just a tech chat!
+
+            - 📧 [Email Id](mailto:erkrishbhimani@gmail.com)  
+            - 🔗 [LinkedIn Profile](https://www.linkedin.com/in/krishbhimani/)
         """
         
         if include_installation == "Yes":
