@@ -2,11 +2,11 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
+# Install system dependencies - simplified to avoid build errors
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
     build-essential \
     curl \
-    software-properties-common \
     git \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
@@ -32,4 +32,4 @@ RUN mkdir -p pages/tmp
 EXPOSE 8501
 
 # Command to run the application
-CMD ["streamlit", "run", "app.py"]
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
